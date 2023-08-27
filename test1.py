@@ -46,7 +46,8 @@ Image(filename='D:\\DS Crs\\Live Project\\Project 119\\final\\success\\val_batch
 Image(filename='D:\\DS Crs\\Live Project\\Project 119\\final\\success\\val_batch1_pred.jpg', width=416)
 
 Image(filename='D:\\DS Crs\\Live Project\\Project 119\\final\\success\\val_batch2_pred.jpg', width=416)
-
+!yolo task= detect mode= val model= "D:\DS Crs\Live Project\Project 119\final\success\best.pt" data= "D:\DS Crs\Live Project\Project 119\final\success\data.yaml"
+!yolo task= detect mode= predict model= "D:\DS Crs\Live Project\Project 119\final\success\best.pt" conf=0.25 source= video_file
 import glob
 from IPython.display import Image, display
 
