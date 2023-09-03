@@ -12,7 +12,7 @@ Created on Sun Sep  3 16:43:52 2023
 @author: rajku
 """
 
-!pip install OpenCV-python
+!pip install OpenCV
 import streamlit as st
 import numpy as np
 import cv2 
