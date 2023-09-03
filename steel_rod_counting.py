@@ -15,7 +15,7 @@ Created on Sun Sep  3 16:43:52 2023
 
 import streamlit as st
 import numpy as np
-from OpenCV import cv2 
+import cv2 
 from PIL import Image
 from ultralytics import YOLO
 
